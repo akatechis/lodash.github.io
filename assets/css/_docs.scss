@@ -49,6 +49,22 @@ html.docs {
 
   .container {
     max-width: 100%;
+
+    .codehint-tooltip {
+      position: absolute;
+      display: none;
+      left: 0px;
+      top: 0px;
+
+      background: white;
+      font-size: 0.8em;
+      padding: 5px;
+
+      .name {
+        font-weight: bold;
+      }
+
+    }
   }
 
   .doc-container {
